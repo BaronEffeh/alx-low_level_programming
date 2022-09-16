@@ -19,7 +19,7 @@ int main(void)
 	while (count < 49)
 	{
 		sum = first + second;
-		print("%li, ", sum);
+		printf("%li, ", sum);
 		first = second;
 		second = sum;
 
