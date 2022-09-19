@@ -5,7 +5,7 @@
  * print_number - function that print all numbers from
  * 0 to 9
  *
- * Return: returns nothing
+ * Return: Always 0
  */
 
 void print_numbers(void)
