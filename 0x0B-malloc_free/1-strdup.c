@@ -22,14 +22,14 @@ char *_strdup(char *str)
 	while (*(str + length_of_string) != '\0')
 		length_of_string++;
 
-	length_of _string++;
+	length_of_string++;
 
 	alloc_mem = malloc(sizeof(*str) * length_of_string);
 
 	if (alloc_mem == NULL)
 		return ('\0');
 
-	for (i = 0; i <length_of_string; i++)
+	for (i = 0; i < length_of_string; i++)
 		alloc_mem[i] = *(str + i);
 
 	alloc_mem[i] = '\0';
